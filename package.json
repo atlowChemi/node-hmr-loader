@@ -1,0 +1,30 @@
+{
+  "name": "hmr-loader",
+  "version": "0.0.1",
+  "description": "Nodejs ESM loader allowing HMR",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "keywords": [
+    "node",
+    "loader",
+    "esm.hmr"
+  ],
+  "repository": "git+https://github.com/atlowChemi/node-hmr-loader.git",
+  "author": "atlowChemi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atlowChemi/node-hmr-loader/issues"
+  },
+  "homepage": "https://github.com/atlowChemi/node-hmr-loader#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0"
+  }
+}
